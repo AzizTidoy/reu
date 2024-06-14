@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+        main {
+            width: 100vw;
+            min-height: 100vh;
+            background-color: #f2f2f2;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1%;
+            background-color: #0f0f0f;
+        }
+        nav h1 {
+            color: #fff;
+            margin-left: 50px;
+        }
+        .nav-links ul {
+            display: flex;
+            list-style: none;
+        }
+        .nav-links li a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 14px;
+        }
+        .main-page {
+            padding: 5%;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .col {
+            flex-basis: 48%;
+            margin-bottom: 20px;
+        }
+        .col h1 {
+            margin-top: 20px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        .col p {
+            font-family: "Georgia", serif;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        .col img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .skills {
+            display: flex;
+        }
+        .skills svg {
+            margin: 50px 14px;
+            width: 60px;
+            cursor: pointer;
+            margin-left: 60px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <main>
+        <nav>
+            <h1>My Portfolio</h1>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="educational.html">Educational</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main-page">
+            <div class="row">
+                <div class="col">
+                    <h1>Project 1</h1>
+                    <img src="./img/project1.jfif" alt="Project 1 Image">
+                    <p>Project 1 Application Form.</p>
+                </div>
+                <div class="col">
+                    <h1>Project 2</h1>
+                    <img src="./img/project2.jfif" alt="Project 2 Image">
+                    <p>Project 2 Trece Tourist Website.</p>
+                </div>
+                <div class="col">
+                    <h1>Project 3</h1>
+                    <img src="./img/project3q.jfif" alt="Project 3 Image">
+                    <p>Project 3 Schedule HTML Table.</p>
+                </div>
+                <div class="col">
+                    <h1>Project 4</h1>
+                    <img src="./img/project4.jfif" alt="Project 4 Image">
+                    <p> Project 4 Login Form.</p>
+                </div>
+                <div class="col">
+                    <h1>Project 5</h1>
+                    <img src="./img/project5.jfif" alt="Project 5 Image">
+                    <p>Project 5 Sign Up Form.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
